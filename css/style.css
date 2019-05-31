@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-family: 'Alice', serif;
+}
+
+
+#Chicken {
+  background-color: #ADD8E6;
+  font-family: 'Alice', serif;
+  border-color:   #000000;
+  border-style: solid;
+  border-width: 1px;
+  padding: 40px 15px 15px 15px; 
+  margin: 10px 10px 10px 10px;
+  float: left;
+  position: relative;
+}
+
+#Beef {
+  background-color: #F08080;
+  font-family: 'Alice', serif;
+  border-color:   #000000;
+  border-style: solid;
+  border-width: 1px;
+  padding: 40px 15px 15px 15px; 
+  margin: 10px 10px 10px 10px;
+  float: left;
+  position: relative;
+}
+
+#Sushi {
+  background-color: #E000FF;
+  font-family: 'Alice', serif;
+  border-color:   #000000;
+  border-style: solid;
+  border-width: 1px;
+  padding: 40px 15px 15px 15px; 
+  margin: 10px 10px 10px 10px;
+  float: left;
+  position: relative;
+}
+
+#name1 {
+  background-color: #77FF33;
+  font-family: 'Alice', serif;
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px 0px 5px;
+  height: 40px;
+  font-size: 1.5em;
+  top: 0px; 
+  right: 0px;
+  text-align: center;
+  padding: 5px 30px;
+  } 
+
+#name2 {
+background-color: #FF6611;
+  font-family: 'Alice', serif;
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px 0px 5px;
+  height: 40px;
+  font-size: 1.5em;
+  top: 0px; 
+  right: 0px;
+  text-align: center;
+  padding: 5px 30px;
+  } 
+
+
+#name3 {
+background-color: #778899;
+  font-family: 'Alice', serif;
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px 0px 5px;
+  height: 40px;
+  font-size: 1.5em;
+  top: 0px; 
+  right: 0px;
+  text-align: center;
+  padding: 5px 30px;
+  } 
+
+@media (min-width: 992px) {
+
+  #Chicken {
+    float: left;
+    width: calc(33% - 20px);
+  }
+
+  #Beef {
+    float: left;
+    width: calc(33% - 20px);
+  }
+
+  #Sushi {
+    float: left;
+    width: calc(33% - 20px);
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #Chicken {
+    float: left;
+    width: calc(50% - 20px);
+  }
+
+  #Beef {
+    float: left;
+    width: calc(50% - 20px);
+  }
+
+  #Sushi {
+    float: left;
+    width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  #Chicken {
+    float: left;
+    width: calc(100% - 20px);
+  }
+
+  #Beef {
+    float: left;
+    width: calc(100% - 20px);
+  }
+
+  #Sushi {
+    float: left;
+    width: calc(100% - 20px);
+  }
+
+}
+
